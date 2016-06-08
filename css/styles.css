@@ -1,0 +1,183 @@
+html, body, #main, #page, #main-body{
+	height: 100%;
+}
+
+#main-block {
+	min-height: 88%;
+	height: 88%;
+}
+
+#main_block__schema-view{
+	height: 100%;
+}
+#main_block__schema-view__canvas-view{
+	height: 100%;
+}
+
+
+.situation-list {
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	align-items:flex-start;
+	padding-left: 10px;
+}
+
+.situation-view {
+	margin: 0px;
+}
+
+.situation-view-inside {
+	margin: 20px 20px 0px 10px;
+}
+
+.situation-view__heading {
+	padding: 5px 15px;
+	margin:0;
+}
+
+.situation-view__body {
+	padding: 5px 15px;
+	margin:0px;
+}
+
+.situation-view__footer {
+	padding: 5px 15px;
+	margin:0px;
+}
+
+#main_block__search-view, #main_block__bundle-view{
+	height: 100%;
+}
+#main_block__search-view__canvas-view, #main_block__search-view__bundle-view{
+	height: 100%;
+}
+
+#main_block__search-view__bundle-view{
+	overflow-y: scroll;
+}
+#left-block {
+    min-height:88%;
+	height: 88%;
+	background-color: #eee;
+}
+
+.hidden-load {
+	visibility:hidden;
+	display:none;
+}
+
+#main_block__search-view__bundle-view{
+	margin:0;
+	padding:0;
+}
+
+#main_block__search-view__bundle-view__answer-list{
+	padding:0;
+	margin: 0;
+}
+
+#main_block__bundle-view{
+	overflow-y: scroll;
+}
+
+#main_block__search-view__bundle-view__answer-list__situation-view__heading, #main_block__search-view__bundle-view__answer-list__situation-view__body 
+{
+	margin-bottom:0;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+
+
+#main-block {
+	background-color: #eee;
+}
+
+#page {
+	background-color: #C0C0C0;
+}
+
+#main_block__bundle-view__situation-list__situation-view , #main_block__search-view__bundle-view__answer-list__situation-view{
+	list-style-type: none;
+}
+
+
+#control-block{
+	height: 100%;
+}
+
+
+#module-content-view{
+	height:70%;
+}
+
+
+#schema-block{
+	height:100%;
+}
+#schema-block__options{
+	height:100%;
+}
+
+#schema-block__opt{
+	height:70%;
+}
+
+
+#schema-block__options__elements {
+	overflow-y: scroll;
+	height: 100%;
+}
+
+#filterSchemasBlock{
+	background-color: #F5F5F5;
+}
+
+#tBodyAttr{
+	overflow-y:scroll;
+}
+
+#schFilIn{
+	max-width: 20%;
+}
+
+.tableInBlock{
+	font-size: 8px;
+	max-height: 100px;
+	overflow-y: scroll;
+}
+
+.InPropTxt{
+	width:100%;
+}
+
+.InPropBtn{
+	width:45%;
+}
+
+
+.tree li,
+.tree ins{ background-image:url("http://habrastorage.org/storage2/0eb/507/98d/0eb50798dca00f5cc8e153e6da9a87f9.png"); background-repeat:no-repeat; background-color:transparent; }
+.tree li { background-position:-90px 0; background-repeat:repeat-y; }
+
+.tree li { display:block; min-height:18px; line-height:18px; white-space:nowrap; margin-left:18px; min-width:18px; }
+
+.tree ul, .tree li { display:block; margin:0 0 0 0; padding:0 0 0 0; list-style-type:none; }
+.tree li { display:block; min-height:18px; line-height:18px; white-space:nowrap; margin-left:18px; min-width:18px; }
+.tree > ul > li { margin-left:0px; }
+
+.tree li.last { background:transparent; }
+.tree .open > ins { background-position:-72px 0;}
+.tree .closed > ins { background-position:-54px 0;}
+.tree .leaf > ins { background-position:-36px 0;}
+
+
+.tree ins { display:inline-block; text-decoration:none; width:18px; height:18px; margin:0 0 0 0; padding:0; }
+li.open > ul { display:block; }
+li.closed > ul { display:none; }
+.selected {background-color: #ccc; }
+span.caption {cursor: pointer}
+
+
+
